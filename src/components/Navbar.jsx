@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const Navbar = (props) => {
   const toggleMode = e => {
@@ -13,7 +13,7 @@ const Navbar = (props) => {
         <div
           onClick={toggleMode}
           className={props.darkMode ? 'toggle toggled' : 'toggle'}
-        />
+        >Hi</div>
       </div>
     </nav>
   );
